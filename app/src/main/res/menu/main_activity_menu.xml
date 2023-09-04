@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_to_cart"
+        android:title="CartImage"
+        android:icon="@drawable/shopping_cart"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.ImageView" />
+    <item
+        android:id="@+id/Settings"
+        android:title="Settings" />
+    <item
+        android:id="@+id/about"
+        android:title="About" />
+    <item
+        android:id="@+id/Share"
+        android:title="Share" />
+</menu>
